@@ -12,3 +12,4 @@ const handleListening = () => console.log(`Server listening on port http://local
 
 app.listen(PORT, handleListening)
 
+console.log('Im server')
