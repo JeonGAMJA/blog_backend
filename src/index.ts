@@ -1,15 +1,1 @@
-import express from "express";
-
-const PORT = 7001;
-
-const app = express();
-
-const handleHome = () => console.log("Somebody is trying to go home.")
-
-app.get("/",handleHome)
-
-const handleListening = () => console.log(`Server listening on port http://localhost:${PORT}`)
-
-app.listen(PORT, handleListening)
-
-console.log('Im server')
+const express = require("express")
